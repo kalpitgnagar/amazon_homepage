@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    width: 180px;
+}
+
+#navlogo{
+    height: 58px;
+    width: 120px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box2  */
+.box2{
+    color: white;
+    font-size: 14px;
+    width: 13%;
+    padding-left: 10px;
+    position: relative;
+    bottom: 3px;
+    
+}
+
+#hellobox2{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: #CCCCCC;
+
+}
+
+#selectyouraddress{
+    font-weight: bold;
+}
+
+/* box3  */
+.box3{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 700px;
+}
+
+#all{
+    height: 40px;
+    width: 50px;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+}
+
+
+
+#input{
+    height: 40px;
+    width: 600px;
+    color: #CCCCCC;
+}
+
+
+
+/* BOX4  */
+.box4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    padding: 10px;
+    height: 50px;
+}
+
+#signin{
+    font-size: 12px;
+
+}
+
+#accountslists{
+    font-weight: bold;
+}
+
+
+/* BOX5  */
+.box5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    padding-left: 10px;
+}
+
+#returns{
+    font-size: 14px;
+}
+
+
+/* BOX6  */
+.box6{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+#cartlogo{
+    font-size: 22px;
+}
+
+
+/* MENUBAR  */
+.menubar{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.first{
+    width: 6%;
+    padding-left: 12px;
+
+}
+
+.second{
+    display: flex;
+    width: 80%;
+    
+}
+
+#menu_ke_topics{
+    padding: 2px;
+    margin: 10px;
+    font-size: 0.85rem;
+
+
+}
+
+.third{
+    padding: 2px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    
+}
+
+.photo{
+    background-color: purple;
+    /* background: url('https://www.google.com/search?q=photo&sca_esv=593282225&rlz=1C1UEAD_enIN1075IN1075&tbm=isch&sxsrf=AM9HkKk7yUifxmJ4F1wQx18YCVH-dqSxwA:1703345953251&source=lnms&sa=X&ved=2ahUKEwiPi-ST8qWDAxXpsVYBHWU9DQUQ_AUoAXoECAQQAw&biw=1745&bih=901&dpr=1.1#imgrc=lQOcu0jW5n2mEM'); */
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
